@@ -1,5 +1,11 @@
-import { Images} from "./styled"
-import myImages from "../../../common/Images/photo2.jpg";
+import { Images, Wrapper } from "./styled";
+import myImages from "../../../common/Images/header2.png";
+import Swiper from "./Swiper/Swiper";
 
-export const Header = () =>
-        <Images src={myImages} alt="images"/>
+export const Header = () => (
+  <>
+    <Wrapper>
+      <Swiper />
+    </Wrapper>
+  </>
+);

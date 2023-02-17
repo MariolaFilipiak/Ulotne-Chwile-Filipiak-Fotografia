@@ -1,0 +1,9 @@
+.text{
+    font-size: 20px;
+    width: 800px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1.4px;
+    line-height: 1.4;
+}
