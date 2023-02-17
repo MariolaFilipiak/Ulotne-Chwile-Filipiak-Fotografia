@@ -1,10 +1,10 @@
 import { Nav } from "../Nav";
-import { Header,} from "./Header";
+import { Header } from "./Header";
 import { Content } from "./Content";
 import { Opinions } from "./Opinions";
 import { Footer } from "./Footer";
 
-function HomePage () {
+function HomePage() {
   return (
     <>
       <Nav />

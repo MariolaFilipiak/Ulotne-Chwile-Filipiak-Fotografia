@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 2;
+  z-index: 9999;
 `;
 
 export const List = styled.ul`

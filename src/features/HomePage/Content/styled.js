@@ -23,6 +23,7 @@ export const Paragraph = styled.div`
   align-items: center;
   flex-direction: column;
   letter-spacing: 1.4px;
+  line-height: 1.4;
   max-width: 80%;
 `;
 export const Images = styled.img`
