@@ -1,4 +1,6 @@
+import { Wrapper } from "./styled";
+
 export default () => (
-    <div>Cennik</div>
+    <Wrapper>Cennik</Wrapper>
 );
   
