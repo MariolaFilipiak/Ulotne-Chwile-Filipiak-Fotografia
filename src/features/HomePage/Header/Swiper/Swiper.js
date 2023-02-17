@@ -4,8 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
-import "./Swiper.css"
-
+import "./Swiper.css";
 
 import photo2 from "../../../../common/Images/photo20.jpg";
 import photo3 from "../../../../common/Images/photo9.jpg";
@@ -23,13 +22,13 @@ function createSlide() {
         <img className="img" src={photo3}></img>
       </SwiperSlide>
       <SwiperSlide>
-        <img className="img"src={photo4}></img>
+        <img className="img" src={photo4}></img>
       </SwiperSlide>
       <SwiperSlide>
-        <img className="img"src={photo5}></img>
+        <img className="img" src={photo5}></img>
       </SwiperSlide>
       <SwiperSlide>
-        <img className="img"src={photo6}></img>
+        <img className="img" src={photo6}></img>
       </SwiperSlide>
     </>
   );

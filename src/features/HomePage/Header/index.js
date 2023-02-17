@@ -1,5 +1,4 @@
-import { Images, Wrapper } from "./styled";
-import myImages from "../../../common/Images/header2.png";
+import { Wrapper } from "./styled";
 import Swiper from "./Swiper/Swiper";
 
 export const Header = () => (
