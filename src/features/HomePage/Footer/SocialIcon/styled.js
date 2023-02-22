@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const List = styled.ul`
   display: flex;
   list-style: none;
+  justify-content: center;
 `;
 
 export const Item = styled.li`
@@ -13,7 +14,7 @@ export const Link = styled.a`
   cursor: pointer;
   color: #25252599;
   &:hover {
-    color:#000000b5;
+    color: #7f8b7f;
   }
 `;
 

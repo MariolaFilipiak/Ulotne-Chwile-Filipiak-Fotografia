@@ -1,10 +1,10 @@
+
 import { SocialIcons } from "./SocialIcon";
-import { Box, Button, Contact, Paragraph, Wrapper } from "./styled";
+import { Box, Button, Contact,Wrapper } from "./styled";
 
 export const Footer = () => (
   <Wrapper>
     <Box>
-      <Paragraph>Znajdź mnie:</Paragraph>
       <SocialIcons />
     </Box>
     <Box>

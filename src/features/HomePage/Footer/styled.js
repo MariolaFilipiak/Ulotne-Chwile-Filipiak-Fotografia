@@ -1,19 +1,26 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: #d9d9d980;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 30px;
+max-width: 100%;
+  background-color: white;
+  word-wrap: break-word;
+ // display: flex;
+  //align-items: center;
+  //justify-content: space-between;
 `;
 export const Box = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  flex-direction: column;
+  //display: flex;
+  //flex-wrap: wrap;
+  //align-items: flex-end;
+  //flex-direction: column;
   margin: 20px;
+
+  @media (max-width: 768px) {
+}
+@media (max-width: 990px) {
+}
 `;
+
 
 export const Paragraph = styled.p`
   font-size: 25px;
@@ -21,6 +28,7 @@ export const Paragraph = styled.p`
   letter-spacing: 0.05em;
   color: #25252599;
   text-transform: uppercase;
+  color :black;
 `;
 export const Button = styled.button`
   width: 50vw;
@@ -38,12 +46,12 @@ export const Contact = styled.a`
   font-size: 25px;
   line-height: 39px;
   letter-spacing: 0.05em;
-  color: #25252599;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px;
 
-  &:hover {
-    color: #000000b5;
+&:hover{
+    color:#7f8b7f;
   }
 `;
