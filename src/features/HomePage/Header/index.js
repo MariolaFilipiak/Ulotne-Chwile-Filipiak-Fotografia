@@ -1,10 +1,14 @@
-import { Wrapper } from "./styled";
-import Swiper from "./Swiper/Swiper";
-
+import {Autor, Box,Text, Wrapper } from "./styled";
 export const Header = () => (
   <>
-    <Wrapper>
-      <Swiper />
+    <Wrapper >
+    <Autor>David duChemin</Autor>
+      <Text>
+        Patrz oczyma,
+        <br />
+        fotografuj <br/>sercem
+      </Text>
+      
     </Wrapper>
   </>
 );
