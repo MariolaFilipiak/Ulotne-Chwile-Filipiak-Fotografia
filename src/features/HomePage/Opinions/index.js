@@ -1,5 +1,5 @@
 import Swiper from "./Slide/Swiper";
-import { Paragraph, Wrapper, Content, Button, Box } from "./styled";
+import { Paragraph, Wrapper} from "./styled";
 
 export const Opinions = () => (
   <Wrapper>
