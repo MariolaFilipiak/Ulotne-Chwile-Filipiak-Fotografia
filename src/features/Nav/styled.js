@@ -15,40 +15,46 @@ export const Wrapper = styled.div`
   margin: 0 auto;
 
   @media (max-width: 768px) {
-    font-size:12px;
+    font-size: 12px;
     justify-content: center;
-}
+  }
 `;
 
-
 export const List = styled.ul`
-  display: flex;
   list-style: none;
-  flex-direction: row;
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: flex-end;
-  text-transform: uppercase;
-  margin: 20px;
+  margin-right: 20px;
 
-  @media(max-width: 768px){
+  @media (max-width: 990px) {
     flex-flow: column nowrap;
-    align-items: flex-end;
-    background-color: black;
+    background-color: #ccc;
     position: fixed;
-    transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
-    padding-top:3.5rem;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 0;
     transition: transform 0.3s ease-in-out;
-    
   }
 `;
 export const Element = styled.li`
-  padding: 10px;
+  margin-top: 15px;
+  padding: 15px 15px;
 `;
 export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
+  text-transform: uppercase;
   color: white;
-  &:hover{
-    color:#c0c1aeb3;
+  &:hover {
+    color: #bfbfbf;
+  }
+  @media (max-width: 990px) {
+    color: black;
+    &:hover {
+      color: #c0c1aeb3;
+    }
   }
 `;

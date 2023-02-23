@@ -1,22 +1,22 @@
-import { Element, List, StyledNavLink, Wrapper } from "./styled"
+import { Element, List, StyledNavLink, Wrapper, StyledLogo } from "./styled";
 
-export const RightNav = ({open}) => {
-    return (
-        <Wrapper open={open}>
-    <List>
-      <Element>
-        <StyledNavLink to="/">Strona Główna</StyledNavLink>
-      </Element>
-      <Element>
-        <StyledNavLink to="portfolio">Portfolio</StyledNavLink>
-      </Element>
-      <Element>
-        <StyledNavLink to="prices">Cennik</StyledNavLink>
-      </Element>
-      <Element>
-        <StyledNavLink to="contact">Kontakt</StyledNavLink>
-      </Element>
-    </List>
-  </Wrapper>
-    )
-}
+export const RightNav = ({ open }) => {
+  return (
+    <Wrapper>
+      <List open={open}>
+        <Element>
+          <StyledNavLink to="/">Strona Główna</StyledNavLink>
+        </Element>
+        <Element>
+          <StyledNavLink to="prices">Oferta</StyledNavLink>
+        </Element>
+        <Element>
+          <StyledNavLink to="portfolio">Portfolio</StyledNavLink>
+        </Element>
+        <Element>
+          <StyledNavLink to="contact">Kontakt</StyledNavLink>
+        </Element>
+      </List>
+    </Wrapper>
+  );
+};
