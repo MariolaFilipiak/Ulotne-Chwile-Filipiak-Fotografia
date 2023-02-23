@@ -4,24 +4,13 @@ export const Wrapper = styled.div`
 max-width: 100%;
   background-color: white;
   word-wrap: break-word;
- // display: flex;
-  //align-items: center;
-  //justify-content: space-between;
 `;
 export const Box = styled.div`
-  //display: flex;
-  //flex-wrap: wrap;
-  //align-items: flex-end;
-  //flex-direction: column;
-  margin: 20px;
-
-  @media (max-width: 768px) {
-}
-@media (max-width: 990px) {
-}
+  margin: 10px;
+display: flex;
+flex-direction: column;
+align-items:center;
 `;
-
-
 export const Paragraph = styled.p`
   font-size: 25px;
   line-height: 39px;
