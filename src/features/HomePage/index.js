@@ -1,4 +1,4 @@
-import { Nav } from "../Nav";
+import { Nav } from "../Nav/index.js";
 import { Header } from "./Header";
 import { Content } from "./Content";
 import { Opinions } from "./Opinions";
