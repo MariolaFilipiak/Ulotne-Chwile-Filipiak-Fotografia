@@ -1,16 +1,33 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-max-width: 100%;
-background-color: white;
-color: black;
-font-size: 50px;
-text-align: center;
-margin-top:30px;
-padding: 30px;
+  width: 100%;
+  color: black;
+  font-size: 50px;
+  margin: 20px;
+  padding: 30px;
+  //height: 500px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: space-between;
+  justify-items: center;
 `;
-
-export const Images = styled.img`
-margin: 0 auto;
-width: 40%;
+export const Photo = styled.img`
+  max-width: 400px;
+  width: 60vw;
+  margin: 0 auto;
+`;
+export const Description = styled.p`
+  font-size: 30px;
+  text-align: center;
+  max-width: 900px;
+  margin: 30px;
+  letter-spacing: 1.4px;
+  line-height: 1.4;
+  padding: 20px;
+  color :#3c3c3c;
+`;
+export const Paragraph = styled.p`
+  font-size: 19px;
 `;
