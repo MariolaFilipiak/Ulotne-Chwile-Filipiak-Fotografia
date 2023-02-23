@@ -4,10 +4,10 @@ import background from "../../../common/Images/photo20.jpg";
 export const Wrapper = styled.div`
   background-image: url("${background}");
   background-attachment: fixed;
-  width: 100%;
- height: 900px;
+  width: 100vw;
+  height: 800px;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
 `;
 
 export const Text = styled.div`
@@ -18,7 +18,7 @@ export const Text = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 170px;
   position: absolute;
   font-family: "Forum";
   line-height: 1.4;
@@ -36,17 +36,17 @@ export const Text = styled.div`
     }
   }
   @media (max-width: 768px) {
-    font-size:50px;
-}
-@media (max-width: 360px) {
-    font-size:30px;
-}
+    font-size: 50px;
+  }
+  @media (max-width: 360px) {
+    font-size: 30px;
+  }
 `;
 export const Autor = styled.p`
   text-transform: uppercase;
   color: white;
-  font-size:20px;
-  margin-top: 120px;
+  font-size: 20px;
+  margin-top: 140px;
   position: absolute;
   font-family: "Forum";
   line-height: 1.4;
@@ -64,9 +64,13 @@ export const Autor = styled.p`
     }
   }
   @media (max-width: 768px) {
-    font-size:15px;
-}
-@media (max-width: 360px) {
-    font-size:10px;
-}
+    font-size: 15px;
+  }
+  @media (max-width: 360px) {
+    font-size: 10px;
+  }
+`;
+export const StyledLogo = styled.div`
+  display: flex;
+  width: 100vw;
 `;
