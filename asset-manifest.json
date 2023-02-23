@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/Ulotne-Chwile-Filipiak-Fotografia/static/css/main.1ef0b77b.css",
-    "main.js": "/Ulotne-Chwile-Filipiak-Fotografia/static/js/main.d7e27b1a.js",
+    "main.js": "/Ulotne-Chwile-Filipiak-Fotografia/static/js/main.414b2e2d.js",
+    "static/media/photo27.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo27.21667a8d4c9b4bc8d73a.jpg",
     "static/media/photo17.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo17.b96f74af41dfb4f9988f.jpg",
+    "static/media/camera.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/camera.e303d503bee74c8f309e.jpg",
+    "static/media/photo123.JPG": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo123.5213c8a29d92fce2f7a3.JPG",
     "static/media/photo20.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo20.525e927b65556bd7c862.jpg",
     "static/media/photo16.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo16.5e07639d6fb3766e600f.jpg",
     "static/media/photo9.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo9.175565e554cc1f3b4363.jpg",
     "static/media/photo6.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo6.a6858b5b560d0818cf28.jpg",
     "static/media/photo14.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo14.ca82c204cc281ce87bac.jpg",
+    "static/media/photo8.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo8.e62708c218939e8e494e.jpg",
     "static/media/photo13.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo13.275fcbc139b4ece7ae25.jpg",
+    "static/media/photo116.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo116.b9c6caa9bc94643eb4ec.jpg",
+    "static/media/photo11.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo11.e425288c690002a6b138.jpg",
     "static/media/photo18.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo18.f3fc49806826233254a1.jpg",
-    "static/media/logo.png": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/logo.260ca98c3fc72d15a22c.png",
+    "static/media/photo21.jpg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/photo21.35952b5e40ff1acdb4bc.jpg",
+    "static/media/logo.svg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/logo.8c093127bdabcd76a3cf737b18ab560a.svg",
     "index.html": "/Ulotne-Chwile-Filipiak-Fotografia/index.html",
     "static/media/email.svg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/email.900a8728f89dda3c58cac8f475f7b2b1.svg",
     "static/media/instagram.svg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/instagram.ff4e260d53de1feccff21149a12a2b34.svg",
     "static/media/facebook.svg": "/Ulotne-Chwile-Filipiak-Fotografia/static/media/facebook.ad5646ed468482b424c926d1f478a6ca.svg",
     "main.1ef0b77b.css.map": "/Ulotne-Chwile-Filipiak-Fotografia/static/css/main.1ef0b77b.css.map",
-    "main.d7e27b1a.js.map": "/Ulotne-Chwile-Filipiak-Fotografia/static/js/main.d7e27b1a.js.map"
+    "main.414b2e2d.js.map": "/Ulotne-Chwile-Filipiak-Fotografia/static/js/main.414b2e2d.js.map"
   },
   "entrypoints": [
     "static/css/main.1ef0b77b.css",
-    "static/js/main.d7e27b1a.js"
+    "static/js/main.414b2e2d.js"
   ]
 }
