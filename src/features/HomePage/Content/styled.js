@@ -1,71 +1,38 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-  background-color: white;
-  text-align: center;
-  padding: 30px;
-  margin: 0 auto;
-  width: 90vw;
-`;
-
 export const Wrapper = styled.div`
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
   margin: 0 auto;
+  width: 80vw;
+  column-count: 3;
+  column-gap: 0.6em;
+  margin-bottom: 15px;
   padding: 15px;
 
   @media (max-width: 1360px) {
-    grid-template-columns: 1fr 1fr;
+    column-count: 3;
   }
   @media (max-width: 768px) {
-    grid-template-columns: auto;
+    column-count: 2;
   }
-`;
-
-export const Description = styled.h2`
-  font-size: 40px;
-  color: black;
-  line-height: 1.4;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-`;
-
-export const Box = styled.div`
-  -webkit-box-shadow: 0px 0px 5px 1px rgba(240, 240, 240, 1);
-  -moz-box-shadow: 0px 0px 5px 1px rgba(240, 240, 240, 1);
-  box-shadow: 0px 0px 5px 1px rgba(240, 240, 240, 1);
-`;
-
-export const Title = styled.h2`
-  font-size: 25px;
-  letter-spacing: 1.4px;
-
-  @media (max-width: 768px) {
-    font-size: 20px;
-  }
-`;
-export const Paragraph = styled.div`
-  text-align: center;
-  margin-bottom: 50px;
-  padding: 10px;
-  font-size: 19px;
-  letter-spacing: 1.4px;
-  line-height: 1.4;
-
-  @media (max-width: 768px) {
-    font-size: 16px;
+  @media (max-width: 360px) {
+    column-count: 1;
   }
 `;
 
 export const Images = styled.img`
-  max-width: 100%;
+  display: inline-block;
+  margin: 0 0 0.3em;
+  width: 100%;
+  &:hover {
+    filter: brightness(50%);
+    color: white;
+    transition-duration: 1.5s;
+  }
 `;
 export const Frame = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  //display: flex;
+  // justify-content: center;
+  //align-items: center;
   &:hover {
     filter: brightness(50%);
     color: white;
@@ -73,8 +40,8 @@ export const Frame = styled.div`
   }
 `;
 export const Button = styled.button`
-  max-width: 200px;
-  height: 200px;
+  max-width: 300px;
+  height: 250px;
   background-color: transparent;
   letter-spacing: 1px;
   position: absolute;
@@ -84,6 +51,7 @@ export const Button = styled.button`
   line-height: 1.4;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  text-align: center;
   &:hover {
     position: absolute;
     color: white;
