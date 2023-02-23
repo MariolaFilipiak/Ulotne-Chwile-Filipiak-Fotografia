@@ -1,7 +1,10 @@
-import { Element, List, Signature, StyledNavLink, Wrapper } from "./styled";
+import { Burger } from "./Burger";
+import { RightNav } from "./RightNav";
+import { Element, List,StyledNavLink, Wrapper} from "./styled";
 
-export const Nav = () => (
-  <Wrapper>
+export const Nav = () => {
+  return (
+    <Wrapper >
     <List>
       <Element>
         <StyledNavLink to="/">Strona Główna</StyledNavLink>
@@ -17,4 +20,5 @@ export const Nav = () => (
       </Element>
     </List>
   </Wrapper>
-);
+  )
+}
