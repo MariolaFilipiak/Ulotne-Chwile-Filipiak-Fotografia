@@ -1,46 +1,87 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-max-width: 100%;
-  background-color: white;
-  word-wrap: break-word;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 export const Box = styled.div`
-  margin: 10px;
-display: flex;
-flex-direction: column;
-align-items:center;
-`;
-export const Paragraph = styled.p`
-  font-size: 25px;
-  line-height: 39px;
-  letter-spacing: 0.05em;
-  color: #25252599;
-  text-transform: uppercase;
-  color :black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 `;
 export const Button = styled.button`
-  width: 50vw;
-  width: 120px;
-  height: 50px;
+  width: 100px;
+  height: 30px;
   background-color: white;
-  border: solid 2px #b9b9b9d9;
+  border: 1px solid #dbdbdb;
   letter-spacing: 1px;
+  margin: 0 auto;
+  margin-top: 20px;
+`;
+export const Legend = styled.p`
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
   text-transform: uppercase;
-  &:hover {
-    transform: scale(1.1);
+  color: #2a2a2a;
+  padding: 20px;
+`;
+export const Form = styled.div`
+  margin: 0 auto;
+`;
+export const Text = styled.p`
+  font-size: 16px;
+  color: #2a2a2a;
+  padding: 5px;
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  @media (max-width: 480px) {
+    width: 120px;
+    font-size: 14px;
   }
 `;
-export const Contact = styled.a`
-  font-size: 25px;
-  line-height: 39px;
-  letter-spacing: 0.05em;
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px;
-
-&:hover{
-    color:#7f8b7f;
+export const Input = styled.input`
+  font-size: 16px;
+  color: #2a2a2a;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  @media (max-width: 480px) {
+    width: 150px;
+    font-size: 14px;
+  }
+`;
+export const Type = styled.select`
+  font-size: 16px;
+  color: #2a2a2a;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  @media (max-width: 480px) {
+    width: 150px;
+    font-size: 14px;
+  }
+`;
+export const Option = styled.option`
+  font-size: 14px;
+  color: #2a2a2a;
+  padding: 5px;
+  display: inline-block;
+`;
+export const Textarea = styled.textarea`
+  font-size: 16px;
+  color: #2a2a2a;
+  padding: 5px;
+  width: 200px;
+  display: inline-block;
+  border: 1px solid #dbdbdb;
+  @media (max-width: 480px) {
+    width: 150px;
+    font-size: 14px;
   }
 `;
