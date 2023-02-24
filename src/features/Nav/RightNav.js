@@ -1,4 +1,4 @@
-import { Element, List, StyledNavLink, Wrapper, StyledLogo } from "./styled";
+import { Element, List, StyledNavLink, Wrapper} from "./styled";
 
 export const RightNav = ({ open }) => {
   return (

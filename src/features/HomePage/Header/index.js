@@ -1,4 +1,4 @@
-import { Autor, Box, StyledLogo, Text, Wrapper } from "./styled";
+import { Autor, StyledLogo, Text, Wrapper } from "./styled";
 import { ReactComponent as Logo } from "../../../common/Images/logo.svg";
 export const Header = () => (
   <>
@@ -10,7 +10,8 @@ export const Header = () => (
       <Text>
         Patrz oczyma,
         <br />
-        fotografuj <br/>sercem
+        fotografuj <br />
+        sercem
       </Text>
     </Wrapper>
   </>
