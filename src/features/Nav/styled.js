@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   background-color: #27291b33;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   font-size: 18px;
   letter-spacing: 0.1em;
   line-height: 2;
@@ -54,7 +54,7 @@ export const StyledNavLink = styled(NavLink)`
   @media (max-width: 990px) {
     color: black;
     &:hover {
-      color: #c0c1aeb3;
+      color: #727070;
     }
   }
 `;

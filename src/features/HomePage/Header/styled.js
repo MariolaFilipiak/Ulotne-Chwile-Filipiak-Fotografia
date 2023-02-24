@@ -4,7 +4,7 @@ import background from "../../../common/Images/photo20.jpg";
 export const Wrapper = styled.div`
   background-image: url("${background}");
   background-attachment: fixed;
-  width: 100vw;
+  width: 100%;
   height: 800px;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,5 +72,5 @@ export const Autor = styled.p`
 `;
 export const StyledLogo = styled.div`
   display: flex;
-  width: 100vw;
+  width: 100%;
 `;
