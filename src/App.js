@@ -2,7 +2,7 @@ import { Route, Routes,HashRouter } from "react-router-dom";
 
 import HomePage from "./features/HomePage";
 import {Portfolio} from "./features/Pages/Portfolio/Portfolio";
-import Prices from "./features/Pages/Prices/Prices";
+import {Prices} from "./features/Pages/Prices/Prices";
 import Contact from "./features/Pages/Contact/Contact";
 import { Nav } from "./features/Nav/index.js";
 
