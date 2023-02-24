@@ -24,7 +24,7 @@ export const Description = styled.p`
   letter-spacing: 1.4px;
   line-height: 1.4;
   padding: 20px;
-  color :#3c3c3c;
+  color: #3c3c3c;
 `;
 export const Paragraph = styled.p`
   font-size: 19px;

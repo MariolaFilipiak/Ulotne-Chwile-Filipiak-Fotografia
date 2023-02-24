@@ -10,7 +10,7 @@ function HomePage() {
     <>
       <Nav />
       <Header />
-      <AboutMe/>
+      <AboutMe />
       <Content />
       <Opinions />
       <Footer />
