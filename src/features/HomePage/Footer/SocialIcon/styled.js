@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const List = styled.ul`
   display: flex;
   list-style: none;
-  justify-content: center;
+  padding: 20px;
 `;
 
 export const Item = styled.li`
