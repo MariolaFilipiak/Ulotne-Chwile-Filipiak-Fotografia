@@ -19,13 +19,15 @@ export const Button = styled.button`
   letter-spacing: 1px;
   margin: 0 auto;
   margin-top: 20px;
+  color: #3c3c3c;
+ margin-bottom: 20px;
 `;
 export const Legend = styled.p`
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
-  color: #2a2a2a;
+  color: #3c3c3c;
   padding: 20px;
 `;
 export const Form = styled.div`
@@ -47,7 +49,7 @@ export const Input = styled.input`
   font-size: 16px;
   color: #2a2a2a;
   padding: 5px;
-  width: 200px;
+  width: 250px;
   text-align: center;
   border: 1px solid #dbdbdb;
   @media (max-width: 480px) {
@@ -59,7 +61,7 @@ export const Type = styled.select`
   font-size: 16px;
   color: #2a2a2a;
   padding: 5px;
-  width: 200px;
+  width: 250px;
   text-align: center;
   border: 1px solid #dbdbdb;
   @media (max-width: 480px) {
@@ -77,7 +79,7 @@ export const Textarea = styled.textarea`
   font-size: 16px;
   color: #2a2a2a;
   padding: 5px;
-  width: 200px;
+  width: 250px;
   display: inline-block;
   border: 1px solid #dbdbdb;
   @media (max-width: 480px) {
