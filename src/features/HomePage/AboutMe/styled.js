@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 100%;
   color: black;
   font-size: 50px;
   margin: 20px;
   padding: 30px;
-  //height: 500px;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
