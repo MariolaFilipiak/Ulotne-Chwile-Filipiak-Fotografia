@@ -4,24 +4,26 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   width: 80%;
   column-count: 3;
-  column-gap: 0.6em;
+ column-gap: 0.6em;
   margin-bottom: 15px;
-  padding: 15px;
 
-  @media (max-width: 1360px) {
+  @media (max-width: 990px) {
     column-count: 3;
+    width: 90%;
   }
   @media (max-width: 768px) {
     column-count: 2;
+    width: 90%;
   }
   @media (max-width: 360px) {
     column-count: 1;
+    width: 90%;
   }
 `;
 
 export const Images = styled.img`
   display: inline-block;
-  margin: 0 0 0.3em;
+  margin:2px;
   width: 100%;
   &:hover {
     filter: brightness(50%);
