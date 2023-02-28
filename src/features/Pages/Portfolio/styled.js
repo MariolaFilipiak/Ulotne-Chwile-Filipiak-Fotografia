@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import portfolio from "../../../common/Images/portfolio.png";
 
-
 export const Container = styled.div`
   margin: 0 auto;
   width: 100%;
@@ -9,13 +8,14 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 80vw;
-  padding: 50px;
+  width: 90vw;
   margin: 0 auto;
   display: grid;
   background-color: white;
+  display: grid;
+  background-color: white;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:20px;
+  grid-gap: 20px;
 
   @media (max-width: 1360px) {
     grid-template-columns: 1fr 1fr;
@@ -28,17 +28,16 @@ export const Wrapper = styled.div`
 export const Header = styled.div`
   background-image: url("${portfolio}");
   background-attachment: fixed;
-  width: 100%;
-  height: 600px;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  height: 40vw;
 `;
 
 export const Content = styled.div`
-padding: 20px;
+  padding: 20px;
   border: 1px solid #c8bc9c;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 `;
@@ -50,7 +49,6 @@ export const Text = styled.p`
   letter-spacing: 1.4px;
   line-height: 1.4;
   text-align: center;
-
 `;
 
 export const Button = styled.button`
@@ -62,14 +60,12 @@ export const Button = styled.button`
   border: none;
   text-align: center;
   border: 1px solid #c8bc9c;
-  &:hover{
-    color:#c8bc9c;
+  &:hover {
+    color: #c8bc9c;
   }
 `;
 export const Images = styled.img`
-width: 100%;
-border: 1px solid #c8bc9c;
+  width: 100%;
+  border: 1px solid #c8bc9c;
 `;
-export const Box = styled.div`
-`;
-
+export const Box = styled.div``;
