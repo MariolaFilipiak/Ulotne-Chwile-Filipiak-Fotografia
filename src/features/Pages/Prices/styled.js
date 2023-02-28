@@ -1,83 +1,93 @@
 import styled from "styled-components";
+import background from "../../../common/Images/ozdoba.png";
+import oferta from "../../../common/Images/oferta.png";
 
-export const Container = styled.section`
-  padding: 20px;
+export const Container = styled.div`
   margin: 0 auto;
-  width: 80vw;
+  width: 100%;
 `;
 
 export const Wrapper = styled.div`
-  justify-content: center;
+  width: 80vw;
+  margin: 0 auto;
   display: grid;
+  background-color: white;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 35px;
-  padding: 15px;
-  margin-top: 100px;
 
   @media (max-width: 1360px) {
     grid-template-columns: 1fr 1fr;
   }
-  @media (max-width: 768px) {
-    grid-template-columns: auto;
+
+  @media (max-width: 990px) {
+    grid-template-columns: 1fr;
   }
 `;
 
-export const Box = styled.div`
-  border: 1px solid #d1d1d14f;
+export const Content = styled.div`
+  margin: 20px;
+  background-image: url("${background}");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #e1e1e178;
+  height: 450px;
+  display: flex;
+  justify-content:   space-between;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #c8bc9c;
 `;
 
 export const Title = styled.h2`
-  font-size: 22px;
+  font-size: 30px;
   letter-spacing: 1.4px;
   color: #3c3c3c;
+text-transform: uppercase;
 
   @media (max-width: 768px) {
-    font-size: 18px;
+    font-size: 22px;
   }
+`;
+export const Price = styled.h3`
+  font-size: 45px;
+  color: #d8b763
+
 `;
 export const Paragraph = styled.div`
   text-align: center;
-  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   color: #3c3c3c;
-  padding: 10px;
+  padding: 20px;
   font-size: 18px;
   letter-spacing: 1.4px;
   line-height: 1.4;
 
   @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 16px;
   }
 `;
 
-export const Images = styled.img`
-  max-width: 100%;
-`;
-export const Frame = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &:hover {
-    filter: brightness(50%);
-    color: white;
-    transition-duration: 1.5s;
-  }
-`;
 export const Button = styled.button`
-  max-width: 200px;
-  height: 200px;
-  background-color: transparent;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #c8bc9c;
   letter-spacing: 1px;
-  position: absolute;
-  border: none;
-  color: transparent;
-  font-size: 25px;
-  line-height: 1.4;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  &:hover {
-    position: absolute;
-    color: white;
-    transition-duration: 2s;
-    cursor: pointer;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+  &:hover{
+    color:#c8bc9c;
   }
+`;
+export const Header = styled.div`
+  background-image: url("${oferta}");
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
 `;
