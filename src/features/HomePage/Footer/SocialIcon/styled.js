@@ -14,7 +14,7 @@ export const Link = styled.a`
   cursor: pointer;
   color: #25252599;
   &:hover {
-    color: #7f8b7f;
+    color: #c9a154bf;
   }
 `;
 

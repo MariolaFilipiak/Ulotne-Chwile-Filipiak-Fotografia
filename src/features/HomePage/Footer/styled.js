@@ -1,10 +1,16 @@
 import styled from "styled-components";
+import tło from "../../../common/Images/tło.png";
 
 export const Wrapper = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("${tło}");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+ height: 100%;
 `;
 export const Box = styled.div`
   display: flex;
