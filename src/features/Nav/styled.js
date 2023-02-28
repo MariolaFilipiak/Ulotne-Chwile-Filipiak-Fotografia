@@ -9,14 +9,10 @@ export const Wrapper = styled.div`
   letter-spacing: 0.1em;
   line-height: 2;
   z-index: 9999;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  margin: 0 auto;
+  height: 100px;
 
   @media (max-width: 768px) {
     font-size: 12px;
-    justify-content: center;
   }
 `;
 
@@ -24,8 +20,7 @@ export const List = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-end;
-  margin-right: 20px;
+  justify-content: center;
 
   @media (max-width: 990px) {
     flex-flow: column nowrap;
@@ -34,8 +29,7 @@ export const List = styled.ul`
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 15px;
     margin-right: 0;
     transition: transform 0.3s ease-in-out;
   }
@@ -49,12 +43,25 @@ export const StyledNavLink = styled(NavLink)`
   text-transform: uppercase;
   color: white;
   &:hover {
-    color: #bfbfbf;
+    color: #c9a154bf;
   }
   @media (max-width: 990px) {
     color: black;
     &:hover {
-      color: #727070;
+      color: #c9a154bf;
     }
   }
+`;
+export const StyledLogo= styled.div`
+text-align:center;
+ @media (max-width: 990px) {
+display: none;
+ }
+`;
+export const StyledLogo2= styled.div`
+display: none;
+@media (max-width: 990px) {
+display: block;
+text-align: center;
+ }
 `;
