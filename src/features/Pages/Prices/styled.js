@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
   display: grid;
   background-color: white;
@@ -32,7 +32,7 @@ export const Content = styled.div`
   border: 1px solid #e1e1e178;
   height: 450px;
   display: flex;
-  justify-content:   space-between;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
 
@@ -43,7 +43,7 @@ export const Title = styled.h2`
   font-size: 30px;
   letter-spacing: 1.4px;
   color: #3c3c3c;
-text-transform: uppercase;
+  text-transform: uppercase;
 
   @media (max-width: 768px) {
     font-size: 22px;
@@ -51,8 +51,7 @@ text-transform: uppercase;
 `;
 export const Price = styled.h3`
   font-size: 45px;
-  color: #d8b763
-
+  color: #d8b763;
 `;
 export const Paragraph = styled.div`
   text-align: center;
@@ -79,15 +78,14 @@ export const Button = styled.button`
   letter-spacing: 1px;
   color: #3c3c3c;
   margin-bottom: 20px;
-  &:hover{
-    color:#c8bc9c;
+  &:hover {
+    color: #c8bc9c;
   }
 `;
 export const Header = styled.div`
   background-image: url("${oferta}");
   background-attachment: fixed;
-  width: 100%;
-  height: 600px;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  height: 40vw;
 `;

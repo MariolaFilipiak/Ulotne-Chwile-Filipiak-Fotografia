@@ -9,10 +9,11 @@ export const Wrapper = styled.div`
   letter-spacing: 0.1em;
   line-height: 2;
   z-index: 9999;
-  height: 100px;
+  height: 80px;
 
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 16px;
+    background-color: transparent;
   }
 `;
 
@@ -35,8 +36,11 @@ export const List = styled.ul`
   }
 `;
 export const Element = styled.li`
-  margin-top: 15px;
-  padding: 15px 15px;
+  padding: 5px 15px;
+  @media (max-width: 990px) {
+    padding: 10px 10px;
+    margin-top: 20px;
+  }
 `;
 export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
@@ -52,16 +56,19 @@ export const StyledNavLink = styled(NavLink)`
     }
   }
 `;
-export const StyledLogo= styled.div`
-text-align:center;
- @media (max-width: 990px) {
-display: none;
- }
+export const StyledLogo = styled.div`
+  margin-top: -20px;
+  @media (max-width: 990px) {
+    display: none;
+  }
 `;
-export const StyledLogo2= styled.div`
-display: none;
-@media (max-width: 990px) {
-display: block;
-text-align: center;
- }
+export const StyledLogo2 = styled.div`
+  display: none;
+  @media (max-width: 990px) {
+    display: block;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;

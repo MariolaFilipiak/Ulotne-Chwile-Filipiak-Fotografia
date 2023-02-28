@@ -30,7 +30,8 @@ export const Prices = () => (
         <Title>Pakiet midi</Title>
         <Price>450zł</Price>
         <Paragraph>
-          15 zdjęć w wersji cyfrowej<br/>
+          15 zdjęć w wersji cyfrowej
+          <br />
           15 wydruków 15x21
           <br />
           czas sesji: do 60 minut
@@ -43,7 +44,8 @@ export const Prices = () => (
         <Title>Pakiet maxi</Title>
         <Price>550zł</Price>
         <Paragraph>
-          20 zdjęć w wersji cyfrowej<br/>
+          20 zdjęć w wersji cyfrowej
+          <br />
           20 wydruków 15x21
           <br />
           czas sesji: do 90 minut

@@ -2,14 +2,13 @@ import styled from "styled-components";
 import background from "../../../common/Images/ozdoba.png";
 import oferta from "../../../common/Images/oferta.png";
 
-
 export const Container = styled.div`
   margin: 0 auto;
   width: 100%;
 `;
 
 export const Wrapper = styled.div`
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
   padding: 20px;
   display: grid;
@@ -17,7 +16,7 @@ export const Wrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
 
   @media (max-width: 1360px) {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
   }
 
   @media (max-width: 990px) {
@@ -32,18 +31,17 @@ export const Content = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid #c8bc9c;
- height: 450px;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const Title = styled.h2`
   font-size: 30px;
   letter-spacing: 1.4px;
-    line-height: 1.4;
-    color: #3c3c3c;
+  line-height: 1.4;
+  color: #3c3c3c;
 
   @media (max-width: 768px) {
     font-size: 22px;
@@ -78,12 +76,13 @@ export const Button = styled.button`
   letter-spacing: 1px;
   color: #3c3c3c;
   margin-bottom: 20px;
-  &:hover{
-    color:#c8bc9c;
+  //position: absolute;
+  &:hover {
+    color: #c8bc9c;
   }
 `;
 export const Header = styled.div`
-background-image: url("${oferta}");
+  background-image: url("${oferta}");
   background-attachment: fixed;
   width: 100%;
   height: 500px;
