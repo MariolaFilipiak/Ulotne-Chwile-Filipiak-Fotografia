@@ -34,12 +34,10 @@ export const Header = styled.div`
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 30vw;
+  height: 40vw;
 `;
 
 export const Content = styled.div`
-  //padding: 20px;
-  padding-bottom: 20px;
   border: 1px solid #c8bc9c;
   display: flex;
   flex-direction: column;
@@ -61,7 +59,8 @@ export const Text = styled.p`
 
 export const Button = styled(Link)`
   background-color: transparent;
-  max-width: 100px;
+width: 100px;
+margin-bottom:20px;
   letter-spacing: 1px;
   color: #3c3c3c;
   border: none;
