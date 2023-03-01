@@ -9,6 +9,7 @@ import {
   Price,
 } from "./styled";
 import { Footer } from "../../HomePage/Footer";
+import Contact from "../Contact/Contact";
 
 export const Prices = () => (
   <Container>
@@ -24,7 +25,7 @@ export const Prices = () => (
           <br />
           dodatkowe ujęcia 35zł/szt
         </Paragraph>
-        <Button>Zarezererwuj</Button>
+        <Button to="/contact">Zarezererwuj</Button>
       </Content>
       <Content>
         <Title>Pakiet midi</Title>

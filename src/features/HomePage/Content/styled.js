@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import background from "../../../common/Images/ozdoba.png";
 import oferta from "../../../common/Images/oferta.png";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -35,6 +36,10 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 400px;
+  @media (max-width: 990px) {
+    height: auto;
+  }
 `;
 
 export const Title = styled.h2`
@@ -68,9 +73,10 @@ export const Paragraph = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
+text-decoration: none;
+text-align: center;
   width: 100px;
-  height: 50px;
   background-color: white;
   border: 1px solid #c8bc9c;
   letter-spacing: 1px;

@@ -36,7 +36,7 @@ export const Legend = styled.p`
   color: #3c3c3c;
   padding: 20px;
 `;
-export const Form = styled.div`
+export const Form = styled.form`
   margin: 0 auto;
 `;
 export const Text = styled.p`
@@ -92,4 +92,12 @@ export const Textarea = styled.textarea`
     width: 150px;
     font-size: 14px;
   }
+`;
+export const Info = styled.p`
+font-size: 10px;
+color: #2a2a2a;
+letter-spacing: 1px;
+max-width: 400px;
+text-align: center;
+padding: 5px;
 `;

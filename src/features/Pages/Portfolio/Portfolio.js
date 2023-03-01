@@ -23,32 +23,32 @@ export const Portfolio = () => (
       <Content>
         <Images src={rodzina} />
         <Text>Sesje rodzinne</Text>
-        <Button>więcej</Button>
+        <Button to="/rodzinne">Zobacz więcej</Button>
       </Content>
       <Content>
         <Images src={dzieci} />
         <Text>Sesje dziecięce</Text>
-        <Button>więcej</Button>
+        <Button to="/dziecięce">Zobacz więcej</Button>
       </Content>
       <Content>
         <Images src={ciąża} />
         <Text>sesje ciążowe</Text>
-        <Button>więcej</Button>
+        <Button to="/ciążowe">Zobacz więcej</Button>
       </Content>
       <Content>
         <Images src={pary} />
         <Text>sesje par</Text>
-        <Button>więcej</Button>
+        <Button to="/pary">Zobacz więcej</Button>
       </Content>
       <Content>
         <Images src={indywidualne} />
         <Text>sesje indywidualne</Text>
-        <Button>więcej</Button>
+        <Button to="/indywidualne">Zobacz więcej</Button>
       </Content>
       <Content>
         <Images src={reportaże} />
         <Text>reportaże</Text>
-        <Button>więcej</Button>
+        <Button to="/reportaże">Zobacz więcej</Button>
       </Content>
     </Wrapper>
     <Footer />

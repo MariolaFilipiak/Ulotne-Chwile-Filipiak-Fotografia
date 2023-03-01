@@ -27,7 +27,7 @@ export const ContentPage = () => (
           wieku mogą brać udział w sesji. A może sesja pokoleniowa? Nie ma
           problemu!
         </Paragraph>
-        <Button>Zobacz więcej</Button>
+        <Button to="/rodzinne">Zobacz więcej</Button>
       </Content>
       <Content>
         <Paragraph>
@@ -37,18 +37,7 @@ export const ContentPage = () => (
           partnerów/ mężów na niezapomniane przeżycie jakim jest sesja ciążowa.
           A jeśli posiadacie już pociechy to zapraszam razem z nimi.
         </Paragraph>
-        <Button>Zobacz więcej</Button>
-      </Content>
-      <Content>
-            <Paragraph>
-          <Title>Sesje noworodkowe lifestyle</Title>
-          Sesje noworodkowe najlepiej wykonać do pierwszego miesiąca życia
-          maluszka, jednak sesje lifestalowe dla mnie nie mają takiego
-          ograniczenia. Zdjęcia wykonuję w Waszym domu, gdzie maluch czuje się
-          najlepiej.
-
-        </Paragraph>
-        <Button>Zobacz więcej</Button>
+        <Button to="ciążowe">Zobacz więcej</Button>
       </Content>
       <Content>
         <Paragraph>
@@ -57,11 +46,9 @@ export const ContentPage = () => (
           dlatego zdjęcia są jedyną formą która pozwala nam wracać do wspomnień
           tego pięknego okresu dzieciństwa. Razem stworzymy pamiątkę zarówno dla
           Was rodziów jak i dla dzieci gdy już dorosną.
-
         </Paragraph>
-        <Button>Zobacz więcej</Button>
+        <Button to="dziecięce">Zobacz więcej</Button>
       </Content>
-
       <Content>
         <Paragraph>
           <Title>Sesje par</Title>
@@ -69,7 +56,7 @@ export const ContentPage = () => (
           Was w plener lub spotykamy się w Waszych czterech kątach. Podczas
           sesji uwiecznię wszystko co najpiękniejsze w miłości!
         </Paragraph>
-        <Button>Zobacz więcej</Button>
+        <Button to="pary">Zobacz więcej</Button>
       </Content>
       <Content>
         <Paragraph>
@@ -78,7 +65,7 @@ export const ContentPage = () => (
           do portfolio,cv czy na socjalmedia to idelna okazja do wspólnego
           wyjścia w plener.
         </Paragraph>
-        <Button>Zobacz więcej</Button>
+        <Button to="indywidualne">Zobacz więcej</Button>
       </Content>
       <Content>
         <Paragraph>
@@ -87,7 +74,7 @@ export const ContentPage = () => (
           uwiecznie te niezapomniane chwile właśnie dla Was. Poniższy cennik nie
           dotyczy reportaży. Cenę ustalamy indywidualnie
         </Paragraph>
-        <Button>Zobacz więcej</Button>
+        <Button to="reportaże">Zobacz więcej</Button>
       </Content>
     </Wrapper>
   </Container>

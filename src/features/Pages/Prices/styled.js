@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import background from "../../../common/Images/ozdoba.png";
 import oferta from "../../../common/Images/oferta.png";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -8,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 90vw;
+  width: 80vw;
   margin: 0 auto;
   display: grid;
   background-color: white;
@@ -20,6 +21,7 @@ export const Wrapper = styled.div`
 
   @media (max-width: 990px) {
     grid-template-columns: 1fr;
+    width: 90vw;
   }
 `;
 
@@ -71,8 +73,13 @@ export const Paragraph = styled.div`
   }
 `;
 
-export const Button = styled.button`
-  height: 50px;
+export const Button = styled(Link)`
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+  height: 40px;
+  text-decoration: none;
   background-color: white;
   border: 1px solid #c8bc9c;
   letter-spacing: 1px;
@@ -87,5 +94,5 @@ export const Header = styled.div`
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 40vw;
+  height: 30vw;
 `;
