@@ -48,7 +48,7 @@ return(
     <Legend>Skontaktuj się</Legend>
     <Box>
       <Text> Imię i Nazwisko:</Text>
-      <Input name="name" type="name" required value={formValues.name} onChange={handleInputChange}/>
+      <Input name="name" type="name" placeholder="imię i nazwisko" required value={formValues.name} onChange={handleInputChange}/>
     </Box>
     <Box>
       <Text> e-mail:</Text>
@@ -57,13 +57,13 @@ return(
         name="email"
         type="email"
         required
+        placeholder="email"
         value={formValues.email} onChange={handleInputChange}
       />
     </Box>
     <Box>
       <Text>Wybierz rodzaj sesji:</Text>
-      <Type type="type" required value={formValues.type} onChange={handleInputChange}>
-      <Option>Wymagane</Option>
+      <Type type="type" required placeholder="rodzaj sesji" value={formValues.type} onChange={handleInputChange}>
         <Option>Sesja rodzinna</Option>
         <Option>Sesja ciążowa</Option>
         <Option>Sesja dziecięca</Option>
@@ -76,11 +76,11 @@ return(
     <Box>
       <Text>*Preferowany termin:<br/>
       </Text>
-      <Input name="date" type="date" step="any" required value={formValues.date} onChange={handleInputChange}/>
+      <Input name="date" type="date" step="any" placeholder="wybierz datę" required value={formValues.date} onChange={handleInputChange}/>
     </Box>
     <Box>
       <Text> Napisz wiadomość:</Text>
-      <Textarea name="description"type="message" required value={formValues.message} onChange={(event) => setFormValues(event.target.value)}></Textarea>
+      <Textarea name="description"type="message" placeholder="wpisz szczegóły" required value={formValues.message} onChange={(event) => setFormValues(event.target.value)}></Textarea>
     </Box>
     <Button type="submit" >
       Wyślij
