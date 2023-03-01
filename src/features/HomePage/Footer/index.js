@@ -64,6 +64,7 @@ return(
     <Box>
       <Text>Wybierz rodzaj sesji:</Text>
       <Type type="type" required placeholder="rodzaj sesji" value={formValues.type} onChange={handleInputChange}>
+      <Option>Wybierz</Option>
         <Option>Sesja rodzinna</Option>
         <Option>Sesja ciążowa</Option>
         <Option>Sesja dziecięca</Option>

@@ -83,6 +83,7 @@ export const Option = styled.option`
 `;
 export const Textarea = styled.textarea`
   font-size: 16px;
+  text-align: center;
   color: #2a2a2a;
   padding: 5px;
   width: 250px;
