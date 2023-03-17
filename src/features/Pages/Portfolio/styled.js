@@ -26,7 +26,6 @@ export const Wrapper = styled.div`
 
   @media (max-width: 990px) {
     grid-template-columns: 1fr;
-    //width: 90vw;
   }
 `;
 export const Header = styled.div`
