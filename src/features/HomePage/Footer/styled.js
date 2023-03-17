@@ -4,6 +4,7 @@ import tło from "../../../common/Images/tło.png";
 export const Wrapper = styled.div`
   margin: 0 auto;
   display: flex;
+  padding-top:50px;
   flex-direction: column;
   align-items: center;
   background-image: url("${tło}");
