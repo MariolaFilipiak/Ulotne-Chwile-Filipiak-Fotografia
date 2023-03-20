@@ -3,14 +3,12 @@ import { Images } from "./styled";
 import { Footer } from "../../../HomePage/Footer";
 import { Container } from "./styled";
 
-import photo1 from "../../../../common/Images/Family/family (1).jpg";
 import photo2 from "../../../../common/Images/Family/family (2).jpg";
 import photo3 from "../../../../common/Images/Family/family (3).jpg";
 import photo4 from "../../../../common/Images/Family/family (4).JPG";
 import photo5 from "../../../../common/Images/Family/family (5).JPG";
 import photo6 from "../../../../common/Images/Family/family (6).JPG";
 import photo7 from "../../../../common/Images/Family/family (7).JPG";
-import photo8 from "../../../../common/Images/Family/family (9).JPG";
 import photo9 from "../../../../common/Images/Family/family (8).JPG";
 import photo10 from "../../../../common/Images/Family/family (27).jpg";
 import photo11 from "../../../../common/Images/Family/family (11).jpg";

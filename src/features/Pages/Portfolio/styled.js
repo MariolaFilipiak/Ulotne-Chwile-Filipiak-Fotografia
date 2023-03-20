@@ -51,21 +51,21 @@ export const Text = styled.p`
   letter-spacing: 1.4px;
   line-height: 1.4;
   text-align: center;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     font-size: 22px;
-    }
+  }
 `;
 
 export const Button = styled(Link)`
   background-color: transparent;
-width: 100px;
-margin-bottom:20px;
+  width: 100px;
+  margin-bottom: 20px;
   letter-spacing: 1px;
   color: #3c3c3c;
   border: none;
   text-align: center;
   border: 1px solid #c8bc9c;
-  text-decoration:none;
+  text-decoration: none;
   &:hover {
     color: #c8bc9c;
   }
