@@ -82,7 +82,7 @@ text-align: center;
   letter-spacing: 1px;
   color: #3c3c3c;
   margin-bottom: 20px;
-  //position: absolute;
+
   &:hover {
     color: #c8bc9c;
   }
