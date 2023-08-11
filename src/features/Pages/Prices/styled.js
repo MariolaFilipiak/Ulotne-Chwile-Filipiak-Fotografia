@@ -37,8 +37,15 @@ export const Content = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-
   border: 1px solid #c8bc9c;
+  transition: opacity 1s linear 0s, transform 1s linear 0s;
+
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+  }
 `;
 
 export const Title = styled.h2`

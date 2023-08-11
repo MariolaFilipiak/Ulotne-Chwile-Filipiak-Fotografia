@@ -37,6 +37,14 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 400px;
+  transition: opacity 1s linear 0s, transform 1s linear 0s;
+
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+  }
   @media (max-width: 990px) {
     height: auto;
   }

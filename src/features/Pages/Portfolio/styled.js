@@ -42,6 +42,14 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: opacity 1s linear 0s, transform 1s linear 0s;
+
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+  }
 `;
 
 export const Text = styled.p`

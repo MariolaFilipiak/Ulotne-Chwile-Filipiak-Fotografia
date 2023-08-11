@@ -6,6 +6,6 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
 background-size: 100%;
 background-repeat: no-repeat;
-height: 60vw;
+height: 40vw;
 
 `;
