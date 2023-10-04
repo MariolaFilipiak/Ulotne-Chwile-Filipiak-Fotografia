@@ -1,6 +1,6 @@
-import {Wrapper } from "./styled";
+import Swipper from "./Swipper";
 export const Header = () => (
   <>
-    <Wrapper/>
+<Swipper/>
   </>
 );

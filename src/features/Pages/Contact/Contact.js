@@ -1,10 +1,10 @@
-import { Footer } from "../../HomePage/Footer";
+import { Footer } from "../../../common/Footer";
 import {
   Container,
 } from "./styled";
 
 export default () => (
-  <Container>
+  <>
     <Footer/>
-  </Container>
+  </>
 );
