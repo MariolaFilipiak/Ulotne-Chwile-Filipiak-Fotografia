@@ -14,7 +14,7 @@ export const Photo = styled.img`
   width: 80vw;
   margin: 0 auto;
 `;
-export const Description = styled.p`
+export const Description = styled.h1`
   text-transform: uppercase;
   font-size: 30px;
   text-align: center;
@@ -30,7 +30,7 @@ export const Description = styled.p`
     border-right: 1px solid #d8b763;
   }
 `;
-export const Paragraph = styled.p`
+export const Paragraph = styled.h2`
   font-size: 19px;
   @media (max-width: 992px) {
     font-size: 16px;
